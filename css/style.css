@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+:root{
+    --link-active: #1F1534;
+    --text-color: #7D7987;
+    --title-color: #000000;
+    --blue: #458FF6;
+}
+
+body{
+    font-family: 'Mulish', sans-serif;
+}
+
+.header{
+    height: 256px;
+    padding-top: 65px;
+    background-color: rgb(112, 230, 171);
+}
+
+.container{
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 190px;
+}
+
+
+.nav_list{
+    display: flex;
+    list-style-type: none;
+}
+
+
+
+.nav_link{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--link-active);
+    opacity: .5;
+    margin-left: 40px;
+}
+
+.nav_link:focus{
+    opacity: 1;
+}
+
+.virtual{
+    height: 598px;
+    margin-bottom: 113px;
+    padding-top: 70px;
+}
+
+.virtual::before{
+    content: '';
+    position: absolute;
+    background-image: url('../img/virtual-health.png');
+    width: 693px;
+    height: 598px;
+    right: 0;
+    top: 256px;
+}
+
+.virtual_title{
+    width: 427px;
+    height: 112px;
+    margin-bottom: 26px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    /* padding-top: 100px; */
+}
+
+.virtual_text{
+    width: 445px;
+    height: 96px;
+    margin-bottom: 45px;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 32px;
+    color: var(--text-color);
+}
+
+.virtual_link{
+    display: inline-block;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    height: 60px;
+    background-color: #458FF6;
+    padding: 20px 40px;
+    border-radius: 55px;
+}
+
+.services{
+    height: 1170px;
+    margin-top: 111px;
+}
+
+.services_title{
+    width: 952px;
+    height: 50px;
+    text-align: center;
+    margin: 0 84px;
+}
+
+.services_line{
+    width: 56px;
+    height: 2px;
+    margin: 26px auto 33px auto;
+    background-color: var(--title-color);
+    border-radius: 5px;
+    border: none;
+}
+
+
+.services_text{
+    width: 952px;
+    text-align: center;
+    margin: 0 84px;
+    font-weight: 300;
+    color: var(--text-color);
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 80px;
+}
+
+.services_box_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services_box{
+    width: 350px;
+    height: 354px;
+    padding-top: 166px;
+    padding-right: 50px;
+    padding-left: 38px;
+    border-radius: 20px;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    position: relative;
+    margin-bottom: 37px;
+    margin-right: 34px;
+}
+
+.services_box:nth-child(3n + 3){
+    margin-right: 0;
+}
+
+.box_title{
+    font-weight: 700;
+    margin-bottom: 1px;
+    line-height: 56px;
+    font-size: 24px;
+}
+
+.box_text{
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.one::before{
+    content: '';
+    position: absolute;
+    background-image: url('../img/search-doctor.svg');
+    width: 92px;
+    height: 90px;
+    top: 54px;
+}
+
+.two::before{
+    content: '';
+    position: absolute;
+    background-image: url('../img/online-pharmasy.svg');
+    width: 62px;
+    height: 85px;
+    top: 62px;
+}
+
+
+.three::before{
+    content: '';
+    position: absolute;
+    background-image: url('../img/consultation.svg');
+    width: 68px;
+    height: 95px;
+    top: 47px;
+}
+
+
+.four::before{
+    content: '';
+    position: absolute;
+    background-image: url('../img/details-info.svg');
+    width: 67px;
+    height: 95px;
+    top: 46px;
+}
+
+
+.five::before{
+    content: '';
+    position: absolute;
+    background-image: url('../img/emergensy-care.svg');
+    width: 80px;
+    height: 71px;
+    top: 59px;
+}
+
+.six::before{
+    content: '';
+    position: absolute;
+    background-image: url('../img/tracking.svg');
+    width: 70px;
+    height: 95px;
+    top: 52px;
+}
+
+.services_link{
+    display: inline-block;
+    width: 200px;
+    padding: 18.5px 49px;
+    color: var(--blue);
+    border: 2px solid var(--blue);
+    border-radius: 55px;
+    left: 0;right: 0;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 72px;
+    margin-left: 460px;
+    margin-bottom: 221px;
+}
+
+
+.advertising{
+    height: 1150px;
+    margin-top: 220px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
